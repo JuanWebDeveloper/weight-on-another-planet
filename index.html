@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight On Another Planet</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="./images/icon.ico" type="image/x-icon">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="formContainer">
+        <h1>Weight on another planet</h1>
+        <form id="form">
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="text" id="weight" placeholder="Actual Weight">
+
+            <select id="planets">
+                <option>Planet</option>
+                <option value="mercurio">Mercurio</option>
+                <option value="venus">Venus</option>
+                <option value="marte">Marte</option>
+                <option value="jupiter">Júpiter</option>
+                <option value="saturno">Saturno</option>
+                <option value="urano">Urano</option>
+                <option value="neptuno">Neptuno</option>
+                <option value="pluton">Plutón</option>
+            </select>
+            <button type="submit" id="calculate">Calculate Weight</button>
+        </form>
+
+        <h2 id="result"></h2>
+    </div>
+
+    <script src="./script/app.js"></script>
+</body>
+</html>
